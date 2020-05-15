@@ -28,4 +28,17 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
+
+  spec.add_runtime_dependency 'natto', '>= 1.2.0'
+  spec.add_runtime_dependency 'yaml', '>= 0.1.0'
+
+  spec.add_development_dependency 'bundler', '~> 2.0'
+  spec.add_development_dependency 'github_changelog_generator', '>= 1.15.0'
+  spec.add_development_dependency 'pry', '>= 0.12.2'
+  spec.add_development_dependency 'pry-byebug', '>= 3.9.0'
+  spec.add_development_dependency 'rake', '>= 12.3.3'
+  spec.add_development_dependency 'rspec', '>= 3.9.0'
+  spec.add_development_dependency 'rubocop', '>= 0.80.1'
+  spec.add_development_dependency 'rubocop-performance', '>= 1.5.2'
+  spec.add_development_dependency 'rubocop-rspec', '>= 1.38.1'
 end
