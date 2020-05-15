@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module LyricsJapanese
-  VERSION = '0.9.0'
+  VERSION = '1.0.0'
   DESCRIPTION = <<~DESC
     This is a helper script for entering Japanese lyrics into
     music scores. lyrics_japanes converts natural Japanese sentences
