@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Shinya Ohtani (shinyaohtani@github)']
   spec.email         = ['shinya_ohtani@yahoo.co.jp']
 
-  spec.summary       = 'Change normal Japanese sentences into word-spacing notes for musical notes.'
+  spec.summary       = 'Convert natural Japanese sentences into word-spacing notes for musical notes.'
   spec.description   = LyricsJapanese::DESCRIPTION
   spec.homepage      = LyricsJapanese::REPOSITORY_URL + '/tree/master/README.md'
   spec.license       = 'MIT'
