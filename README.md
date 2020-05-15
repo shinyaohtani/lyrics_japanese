@@ -37,12 +37,15 @@ There are two ways to convert
   -  ex)
     ```sh
     $ echo "恋しちゃおう" | lyrics_japanese
+    こ い し ちゃ お う
     ```
 - convert from files
   -  ex)
     ```sh
-    $ echo "恋しちゃおう" > sample_lyrics.txt
+    $ cat sample_lyrics.txt
+    恋しちゃおう
     $ lyrics_japanese sample_lyrics.txt
+    こ い し ちゃ お う
     ```
 
 ## Development
