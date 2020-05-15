@@ -32,7 +32,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+There are two ways to convert
+- convert from STDIN
+  -  ex)
+    ```sh
+    $ echo "恋しちゃおう" | lyrics_japanese
+    ```
+- convert from files
+  -  ex)
+    ```sh
+    $ echo "恋しちゃおう" > sample_lyrics.txt
+    $ lyrics_japanese sample_lyrics.txt
+    ```
 
 ## Development
 
