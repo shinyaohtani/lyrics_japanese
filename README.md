@@ -5,7 +5,10 @@ Convert natural Japanese sentences into word-spacing notes
 for musical notes.
 example:
 ```
-  "恋しちゃおう 夢見ちゃおう 恋のダンスサイト" is converted to
+  "恋しちゃおう 夢見ちゃおう 恋のダンスサイト" 
+```
+is converted to
+```
   "こ い し ちゃ お う ゆ め み ちゃ お う こ い の ダ ン ス サ イ ト"
 ```
 This format can be directly put into the lyrics window
