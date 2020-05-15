@@ -39,8 +39,12 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/lyrics_japanese. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/lyrics_japanese/blob/master/CODE_OF_CONDUCT.md).
-
+Bug reports and pull requests are welcome!
+1. Fork it ( https://github.com/shinyaohtani/lyrics_japanese )
+1. Create your feature branch (git checkout -b my-new-feature)
+1. Commit your changes (git commit -am 'Add some feature')
+1. Push to the branch (git push origin my-new-feature)
+1. Create a new Pull Request
 
 ## License
 
@@ -48,4 +52,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the LyricsJapanese project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/lyrics_japanese/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the MasterDelivery project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/shinyaohtani/lyrics_japanese/blob/master/CODE_OF_CONDUCT.md).
