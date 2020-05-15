@@ -3,8 +3,9 @@
 module LyricsJapanese
   VERSION = '0.9.0'
   DESCRIPTION = <<~DESC
-    Change normal Japanese sentences into word-spacing notes
-    for musical notes.
+    This is a helper script for entering Japanese lyrics into
+    music scores. lyrics_japanes converts natural Japanese sentences
+    into word-spacing notes for musical notes.
     example:
       "恋しちゃおう 夢見ちゃおう 恋のダンスサイト" is converted to
       "こ い し ちゃ お う ゆ め み ちゃ お う こ い の ダ ン ス サ イ ト"

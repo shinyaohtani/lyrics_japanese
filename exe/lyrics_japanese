@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require 'lyrics_japanese'
+require 'cli_lyrics_japanese'
+
+cli_lj = LyricsJapanese::CliLyricsJapanese.new
+cli_lj.parse_options
+cli_lj.run
