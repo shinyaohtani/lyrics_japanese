@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/lyrics_japanese.svg)](https://badge.fury.io/rb/lyrics_japanese)
 # LyricsJapanese
 
 This is a helper script for entering **Japanese lyrics** into **music scores**.
