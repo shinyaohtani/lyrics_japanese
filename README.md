@@ -1,6 +1,6 @@
 # LyricsJapanese
 
-This is a helper script for entering Japanese lyrics into music scores.
+This is a helper script for entering **Japanese lyrics** into **music scores**.
 Convert natural Japanese sentences into word-spacing notes
 for musical notes.
 example:
