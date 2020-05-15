@@ -10,7 +10,9 @@ module LyricsJapanese
   class CliLyricsJapanese
     attr_accessor :params
 
-    def initialize; end
+    def initialize
+      @params = {}
+    end
 
     def parse_options
       OptionParser.new do |opts|
@@ -19,7 +21,18 @@ module LyricsJapanese
       end
     end
 
-    def run; end
+    def run
+      text = []
+      if !ARGV.empty?
+        File.open(ARGV[0]) do |file|
+          text = file.each_line.to_a
+        end
+      else
+        text = STDIN.each_line.to_a
+      end
+      lines = LyricsJapanese.new.to_lyricruby(text, ' ')
+      puts lines.join("\n")
+    end
 
     def define_options(opts)
       opts.version = VERSION
