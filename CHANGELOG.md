@@ -1,5 +1,21 @@
 # Changelog
 
+## [v1.0.1](https://github.com/shinyaohtani/lyrics_japanese/tree/v1.0.1) (2020-05-18)
+
+[Full Changelog](https://github.com/shinyaohtani/lyrics_japanese/compare/v1.0.0...v1.0.1)
+
+- Removed extra spaces before processing
+- Sample lyrics for testing is prepared
+- Example of README.md is changed because 1 char Kanji rule cannot be seen.
+
+**Implemented enhancements:**
+
+- Remove extra spaces [\#3](https://github.com/shinyaohtani/lyrics_japanese/issues/3)
+
+**Merged pull requests:**
+
+- Remove extra spaces [\#4](https://github.com/shinyaohtani/lyrics_japanese/pull/4) ([shinyaohtani](https://github.com/shinyaohtani))
+
 ## [v1.0.0](https://github.com/shinyaohtani/lyrics_japanese/tree/v1.0.0) (2020-05-15)
 
 [Full Changelog](https://github.com/shinyaohtani/lyrics_japanese/compare/95359c051a51f5562156e52fdcb80aeb0aae6b93...v1.0.0)
