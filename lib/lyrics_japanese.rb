@@ -48,7 +48,7 @@ module LyricsJapanese
       lines = []
       text.each do |sentence|
         words = []
-        @@natto.parse(sentence) do |n|
+        @@natto.parse(sentence.gsub(/[ 　]+/,' ').strip) do |n|
           unless n.is_eos?
             # puts "#{n.surface}\t#{n.feature}"
             rubi = n.surface
