@@ -33,12 +33,12 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'yaml', '>= 0.1.0'
 
   spec.add_development_dependency 'bundler', '~> 2.0'
-  spec.add_development_dependency 'github_changelog_generator', '>= 1.15.0'
-  spec.add_development_dependency 'pry', '>= 0.12.2'
+  spec.add_development_dependency 'github_changelog_generator', '>= 1.15.2'
+  spec.add_development_dependency 'pry', '>= 0.13.1'
   spec.add_development_dependency 'pry-byebug', '>= 3.9.0'
   spec.add_development_dependency 'rake', '>= 12.3.3'
   spec.add_development_dependency 'rspec', '>= 3.9.0'
-  spec.add_development_dependency 'rubocop', '>= 0.80.1'
+  spec.add_development_dependency 'rubocop', '>= 0.83.0'
   spec.add_development_dependency 'rubocop-performance', '>= 1.5.2'
-  spec.add_development_dependency 'rubocop-rspec', '>= 1.38.1'
+  spec.add_development_dependency 'rubocop-rspec', '>= 1.39.0'
 end
