@@ -19,11 +19,6 @@ Layout/EndAlignment:
   Enabled: true
   AutoCorrect: true
 
-Layout/LineLength:
-  Enabled: true
-  AutoCorrect: false
-  Max: 120
-
 Metrics/BlockLength:
   Enabled: true
   Max: 30
